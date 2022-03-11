@@ -1,0 +1,27 @@
+Loading model ../../models/<id>/quran_rectrain_37.mlmodel	✓
+Evaluating ../../models/<id>/quran_rectrain_37.mlmodel
+Evaluating ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 5739/5739 0:00:00 1:48:01
+=== report  ===
+
+405284	Characters
+41	Errors
+99.99%	Accuracy
+
+0	Insertions
+1	Deletions
+40	Substitutions
+
+Count	Missed	%Right
+72495	0	100.00%	Common
+332789	40	99.99%	Arabic
+
+Errors	Correct-Generated
+23	{ ي } - { ى }
+13	{ ى } - { ي }
+1	{ أ } - { ا }
+1	{ ن } - { ل }
+1	{  } - { ا }
+1	{ آ } - { أ }
+1	{ آ } - { ا }
+
+Average accuracy: 99.99%, (stddev: 0.00)

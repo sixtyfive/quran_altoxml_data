@@ -1,0 +1,183 @@
+ketos, version 3.0.0.0b24
+Initializing model ✓
+Accuracy report (1) 0.9818 38963 710
+Accuracy report (2) 0.9904 38963 373
+Accuracy report (3) 0.9919 38963 316
+Accuracy report (4) 0.9934 38963 257
+Accuracy report (5) 0.9932 38963 266
+Accuracy report (6) 0.9946 38963 211
+Accuracy report (7) 0.9943 38963 224
+Accuracy report (8) 0.9954 38963 179
+Accuracy report (9) 0.9951 38963 189
+Accuracy report (10) 0.9952 38963 186
+Accuracy report (11) 0.9957 38963 166
+Accuracy report (12) 0.9957 38963 169
+Accuracy report (13) 0.9956 38963 173
+Accuracy report (14) 0.9960 38963 157
+Accuracy report (15) 0.9953 38963 182
+Accuracy report (16) 0.9959 38963 160
+Accuracy report (17) 0.9960 38963 154
+Accuracy report (18) 0.9961 38963 152
+Accuracy report (19) 0.9961 38963 153
+Accuracy report (20) 0.9962 38963 150
+Accuracy report (21) 0.9964 38963 140
+Accuracy report (22) 0.9964 38963 141
+Accuracy report (23) 0.9962 38963 148
+Accuracy report (24) 0.9965 38963 135
+Accuracy report (25) 0.9962 38963 150
+Accuracy report (26) 0.9962 38963 150
+Accuracy report (27) 0.9967 38963 128
+Accuracy report (28) 0.9965 38963 137
+Accuracy report (29) 0.9962 38963 148
+Accuracy report (30) 0.9962 38963 148
+Accuracy report (31) 0.9966 38963 131
+Accuracy report (32) 0.9963 38963 143
+Accuracy report (33) 0.9966 38963 134
+Accuracy report (34) 0.9969 38963 121
+Accuracy report (35) 0.9969 38963 122
+Accuracy report (36) 0.9966 38963 134
+Accuracy report (37) 0.9963 38963 146
+Accuracy report (38) 0.9967 38963 129
+Accuracy report (39) 0.9960 38963 157
+Accuracy report (40) 0.9965 38963 136
+Accuracy report (41) 0.9965 38963 136
+Accuracy report (42) 0.9964 38963 141
+Accuracy report (43) 0.9965 38963 136
+Accuracy report (44) 0.9969 38963 120
+Accuracy report (45) 0.9966 38963 133
+Accuracy report (46) 0.9967 38963 128
+Accuracy report (47) 0.9966 38963 132
+Accuracy report (48) 0.9966 38963 131
+Accuracy report (49) 0.9964 38963 139
+Accuracy report (50) 0.9966 38963 132
+Accuracy report (51) 0.9962 38963 148
+Accuracy report (52) 0.9967 38963 130
+Accuracy report (53) 0.9968 38963 125
+Accuracy report (54) 0.9969 38963 122
+Accuracy report (55) 0.9967 38963 128
+Accuracy report (56) 0.9968 38963 125
+Accuracy report (57) 0.9965 38963 137
+Accuracy report (58) 0.9967 38963 130
+Accuracy report (59) 0.9969 38963 119
+Accuracy report (60) 0.9968 38963 124
+Accuracy report (61) 0.9968 38963 125
+Accuracy report (62) 0.9971 38963 114
+Accuracy report (63) 0.9968 38963 125
+Accuracy report (64) 0.9967 38963 130
+Accuracy report (65) 0.9967 38963 130
+Accuracy report (66) 0.9968 38963 125
+Accuracy report (67) 0.9965 38963 137
+Accuracy report (68) 0.9968 38963 123
+Accuracy report (69) 0.9965 38963 135
+Accuracy report (70) 0.9963 38963 143
+Accuracy report (71) 0.9971 38963 113
+Accuracy report (72) 0.9971 38963 114
+Accuracy report (73) 0.9967 38963 130
+Accuracy report (74) 0.9966 38963 132
+Accuracy report (75) 0.9967 38963 129
+Accuracy report (76) 0.9966 38963 133
+Accuracy report (77) 0.9966 38963 131
+Accuracy report (78) 0.9968 38963 124
+Accuracy report (79) 0.9966 38963 132
+Accuracy report (80) 0.9965 38963 136
+Accuracy report (81) 0.9967 38963 129
+Accuracy report (82) 0.9966 38963 132
+Loading model ../../models/43/quran_test_01_62.mlmodel	Loading model ../../models/43/quran_test_01_62.mlmodel	✓
+Evaluating ../../models/43/quran_test_01_62.mlmodel
+=== report  ===
+
+377129	Characters
+482	Errors
+99.87%	Accuracy
+
+30	Insertions
+46	Deletions
+406	Substitutions
+
+Count	Missed	%Right
+67365	0	100.00%	Common
+309764	436	99.86%	Arabic
+
+Errors	Correct-Generated
+148	{ ي } - { ى }
+40	{ أ } - { ا }
+38	{ ى } - { ي }
+20	{  } - { ا }
+16	{ إ } - { ا }
+16	{ ج } - { ح }
+13	{ أ } - { إ }
+11	{ ي } - { ب }
+10	{ ن } - { ل }
+9	{ ح } - { ج }
+9	{ ا } - { إ }
+8	{ ب } - { ي }
+8	{ أ } - { آ }
+6	{ ذ } - { د }
+6	{ و } - {  }
+6	{ ا } - { أ }
+5	{ ن } - {  }
+5	{ آ } - { أ }
+5	{  } - { ب }
+4	{ إ } - { أ }
+4	{ ي } - {  }
+3	{  } - { ر }
+3	{ د } - { ذ }
+3	{ ب } - {  }
+3	{ ت } - { ن }
+3	{ ق } - { ف }
+3	{ ز } - {  }
+3	{  } - { ي }
+3	{ ث } - { ل }
+3	{ ي } - { ل }
+3	{ غ } - { ع }
+3	{ ظ } - { ط }
+3	{ د } - { ل }
+2	{ ف } - { ه }
+2	{  } - { إ }
+2	{  } - { SPACE }
+2	{ ث } - { ت }
+2	{  } - { ل }
+2	{ ر } - { أ }
+2	{ ز } - { ا }
+2	{ ف } - {  }
+2	{ ر } - {  }
+2	{ ع } - { ه }
+2	{ ن } - { ت }
+2	{ ر } - { SPACE }
+1	{ ت } - {  }
+1	{ ل } - { أ }
+1	{ ت } - { ل }
+1	{ ئ } - { ك }
+1	{ ح } - { خ }
+1	{  } - { ذ }
+1	{  } - { ء }
+1	{  } - { أ }
+1	{ ئ } - {  }
+1	{  } - { د }
+1	{ ن } - { ب }
+1	{ ق } - {  }
+1	{ ذ } - { ا }
+1	{ أ } - {  }
+1	{ ل } - { ف }
+1	{ ر } - { ا }
+1	{ ض } - { ص }
+1	{  } - { ك }
+1	{ ز } - { ر }
+1	{ ك } - { د }
+1	{ ن } - { ذ }
+1	{ د } - { ا }
+1	{ ف } - { ذ }
+1	{ آ } - { إ }
+1	{  } - { ى }
+1	{ أ } - { ه }
+1	{ ل } - { إ }
+1	{ ا } - {  }
+1	{  } - { ت }
+1	{ ف } - { ت }
+1	{ ل } - { ي }
+1	{  } - { ز }
+1	{ ب } - { ل }
+1	{ ع } - { ك }
+1	{  } - { ة }
+
+Average accuracy: 99.87%, (stddev: 0.00)
